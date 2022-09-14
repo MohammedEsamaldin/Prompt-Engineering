@@ -5,3 +5,8 @@ This notebook demonstrates how to use Cohere's generative models to extract the 
 ![image](https://user-images.githubusercontent.com/110843414/190238987-ca154048-cf44-4be1-af9b-6b96124f3efe.png)
 # Preparing examples for the prompt
 In our prompt, we'll present the model with examples for the type of output we're after. We basically get a set of subreddit article titles, and label them ourselves. The label here is the name of the movie mentioned in the title (and "none" if no movie is mentioned).
+![image](https://user-images.githubusercontent.com/110843414/190240175-984de18c-815b-46a5-b0fa-c7ce6b5c114a.png)
+# Creating the extraction prompt
+We'll create a prompt that demonstrates the task to the model. The prompt contains the examples above, and then presents the input text and asks the model to extract the movie name.
+![image](https://user-images.githubusercontent.com/110843414/190240288-50642493-8ad7-4554-b03b-acd978a1e601.png)
+
